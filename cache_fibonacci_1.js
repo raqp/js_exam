@@ -1,3 +1,4 @@
+'use strict'
 let cache = {};
 
 function cache_fibonacci_1(n){
@@ -12,4 +13,4 @@ function cache_fibonacci_1(n){
   return cache[n-2] + cache[n - 1]
 }
 
-console.log(cache_fibonacci_1(30))
+console.log(cache_fibonacci_1(600))
